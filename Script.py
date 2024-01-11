@@ -1,20 +1,20 @@
 class script(object):
     
-    START_TXT = """<b>𝙹𝚊𝚢 𝚂𝚑𝚛𝚎𝚎 𝚁𝚊𝚖 🚩 {}, <i>{}</i>
+    START_TXT = """<b>𝙹𝚊i Hind 🚩 {}, <i>{}</i>
     
 ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴀꜱ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ᴡɪᴛʜ ʟɪɴᴋ sʜᴏʀᴛᴇɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ... ɪᴛ'ꜱ ᴇᴀꜱʏ ᴛᴏ ᴜꜱᴇ ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ... ♻️</b>"""
 
     MY_ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
- ✯ ᴍʏ ɴᴀᴍᴇ : ɪʟʟᴇɢᴀʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ ≛
- ✯ ᴅᴇᴠᴇʟᴏᴘᴇʀ : ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕷
+ ✯ ᴍʏ ɴᴀᴍᴇ : ꜰɪʟᴛᴇʀ ʙᴏᴛ ≛
+ ✯ ᴅᴇᴠᴇʟᴏᴘᴇʀ : ᴅᴇᴠᴇʟᴏᴘᴇʀ 🕷
  ✯ ʙᴏᴛ sᴇʀᴠᴇʀ : ᴘʀɪᴠᴀᴛᴇ
  ✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]</b>"""
 
     YOUR_ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : 𓆩꯭꯭꯭L꯭꯭ᴜ꯭꯭ᴄɪ꯭ғ꯭ᴇ꯭ʀ꯭𓆪
 
-✯ Cʀᴇᴀᴛᴏʀ : 𒆜 𝖪ᴜɴᴀʟ ࿐
+✯ Cʀᴇᴀᴛᴏʀ : 𒆜 Clipmate ࿐
 
-✯ Uᴘᴅᴀᴛᴇs : KD Bᴏᴛᴢ ⚡
+✯ Uᴘᴅᴀᴛᴇs : @visualmovies1 ⚡
 
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
@@ -24,10 +24,10 @@ class script(object):
 🗣️ Bᴏᴛ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.
 📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ.</b>"""
 
-    MY_OWNER_TXT = """<b>★ Name: Illegal Developer
-★ Username: @IllegalDeveloperBot
-★ ID: <code>5493832202</code>
-★ Country: Bharat 🇨🇮</b>"""
+    MY_OWNER_TXT = """<b>★ Name: Developer
+★ Username: @visualmovies1
+★ ID: <code></code>
+★ Country: Bharat</b>"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
@@ -105,10 +105,10 @@ I can't find the <b>{}</b> in my database! 🥲
 🗣 Requested by: {message.from_user.mention}
 ©️ Powered by: <b>{message.chat.title}</b>"""
 
-    FILE_CAPTION = """<b><a href='https://t.me/Bollywood_New_Hindi_Movies_Files'>{file_name}</a>
+    FILE_CAPTION = """<b><a href='https://t.me/visualmovies1'>{file_name}</a>
 
 🔰 Join For Back-up
-@Bollywood_New_Hindi_Movies_Files
+@visualmovies1
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>
 
 <i>ᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ</i> 🚫"""
@@ -153,10 +153,10 @@ I can't find the <b>{}</b> in my database! 🥲
 
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀ ᴘʀɪᴠᴀᴛᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
-- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/IllegalDeveloperBot>☏ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a>
+- ꜱᴏᴜʀᴄᴇ - <a href=https://t.me/visualmovies1>☏ contact</a>
 
 🧑‍💻 ᴅᴇᴠʟᴏᴘᴇʀ -
-<a href=https://t.me/IllegalDeveloperBot>ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>🕷"""
+<a href=https://t.me/visualmovies1> ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>🕷"""
 
 BUY_PREMIUM = """
 <b>Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇs 🎁                      
