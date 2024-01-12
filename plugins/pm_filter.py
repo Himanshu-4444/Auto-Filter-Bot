@@ -43,7 +43,7 @@ async def give_filter(client, message):
             files, offset, total = await get_search_results(message.text, offset=0, filter=True)
             if files:
                 btn = [[
-                    InlineKeyboardButton("Here", url='https://t.me/+n8Juq9gdPY4wMmE1')
+                    InlineKeyboardButton("Here", url='https://t.me/sgrph')
                 ]]
                 await message.reply_text(f'Total {total} results found in this group', reply_markup=InlineKeyboardMarkup(btn))
             return
@@ -150,7 +150,7 @@ async def pm_search(client, message):
     files, n_offset, total = await get_search_results(message.text, filter=True)
     if int(total) != 0:
         btn = [[
-            InlineKeyboardButton("Here", url='https://t.me/+n8Juq9gdPY4wMmE1')
+            InlineKeyboardButton("Here", url='https://t.me/sgrph')
         ]]
         await message.reply_text(f'Total {total} results found in this group', reply_markup=InlineKeyboardMarkup(btn))
 
@@ -481,13 +481,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "my_about":
         buttons = [[
-            InlineKeyboardButton('ɪʟʟᴇɢᴀʟ ʀᴇQᴜᴇꜱᴛ ʟᴏɢꜱ', url=f'https://t.me/+ltFUTHRkkINkMjFl')
+            InlineKeyboardButton('Request Logs', url=f'https://t.me/+rKDwabFjLcZjNGRl')
         ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url=f'https://t.me/+xliKewy26OYwMTNl'),
-            InlineKeyboardButton('Channel', url=f'https://t.me/visualmovies1')
+            InlineKeyboardButton('GROUP', url=f'https://t.me/+p2fj-s44ju1lZDc1'),
+            InlineKeyboardButton('CHANNEL', url=f'https://t.me/visualmovies1')
         ],[
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url=f'https://t.me/sgrph'),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url=f'https://t.me/+n8Juq9gdPY4wMmE1')
+            InlineKeyboardButton('SUPPORT', url=f'https://t.me/sgrph'),
+            InlineKeyboardButton('UPDATES', url=f'https://t.me/visualmovies1')
         ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]]
